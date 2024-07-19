@@ -1,2 +1,2 @@
 # linkhub
-linkhub
+LinkHub

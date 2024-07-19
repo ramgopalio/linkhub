@@ -1,0 +1,72 @@
+baseURL = "https://ramgopalio.github.io/linkhub/"
+languageCode = "en"
+defaultContentLanguage = "en"
+publishDir = "docs"
+
+title = "ram-linkhub"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+
+   name = "ram"
+
+headline = "Hi, I’m @ram. I'm passionate about coding, science, technology, and innovation. I'm always looking to collaborate, connect, and explore new opportunities together!"
+
+   image = "ram.webp"  # path relative to dam directory
+
+
+  links = [
+
+    # { link = "https://link-to-some-website.com/" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { bandcamp = "https://username.bandcamp.com" },
+    # { bluesky = "https://bsky.app/profile/username" },
+    # { codepen = "https://is.gd/ramcodepen" },  # https://codepen.io/ramgopalio/
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+#     { facebook = "https://is.gd/ramfacebook" }, # https://www.facebook.com/ramgopalio
+    # { flickr = "https://is.gd/ramflickr" }, https://www.flickr.com/photos/ramgopalmetta/
+    # { foursquare = "https://foursquare.com/username" },
+     { github = "https://is.gd/ramgit" }, # https://github.com/ramgopalio
+      { linkedin = "https://is.gd/ramlinkedin" },# https://linkedin.com/in/ramgopalio
+      { twitter = "https://is.gd/ramtwitter" }, # https://x.com/ramgopalio
+#      { twitter = "https://twitter.com/ramgopalio" }, # https://twitter.com/ramgopalio
+    # { gitlab = "https://is.gd/ramgitlab" }, # https://gitlab.com/ramgopalio
+#     { google = "https://www.google.com/" },
+     { instagram = "https://is.gd/raminsta" }, # https://instagram.com/ramgopalio
+    # { keybase = "https://keybase.io/ramgopal" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://last.fm/user/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { medium = "https://is.gd/rammedium" }, # https://medium.com/@ramgopalio
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://is.gd/rampatreon" }, # https://www.patreon.com/ramgopal
+    # { pinterest = "https://is.gd/rampinterest" },  # https://in.pinterest.com/ramgopalio
+    # { reddit = "https://is.gd/ramreddit" }, # https://www.reddit.com/user/ramgopalio
+    # { slack = "https://workspace.url/team/userid" },
+     { snapchat = "https://is.gd/ramsnap" }, # https://snapchat.com/add/ramgopal
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { spotify = "https://spotify.com/user/username" },
+    # { stack-exchange = "https://stackexchange.com/users/userid/username" },
+    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+     { telegram = "https://is.gd/ramtelegram" }, # https://t.me/ramgopalio
+#     { threads = "https://is.gd/ramthreads" }, # https://www.threads.net/@ramgopalio
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://is.gd/ramtumblr" }, # https://www.tumblr.com/ramgopalio
+    # { twitch = "https://twitch.tv/username" },
+#     { x = "https://is.gd/ramtwitter" }, # https://x.com/ramgopalio
+#      { whatsapp = "https://wa.me/+91askme" }, # https://wa.me/+91askme
+      { email = "mailto:ramgopalio@outlook.in" },
+    # { youtube = "https://is.gd/ramyoutube" }, # https://www.youtube.com/@ramgopalio
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
